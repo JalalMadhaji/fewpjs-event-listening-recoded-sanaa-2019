@@ -4,5 +4,5 @@ function addingEventListener(par,ev) {
 });
 }
 
-let input1 = document.querySelector('input #input');
+let input1 = document.querySelector('input#input');
 addingEventListener(input1,'click');
