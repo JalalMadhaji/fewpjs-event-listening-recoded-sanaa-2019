@@ -1,8 +1,9 @@
-function addingEventListener(par,ev) {
-  par.addEventListener(ev,function(event) {
+function addingEventListener(ev) {
+  let input1 = document.querySelector('input#input');
+  input1.addEventListener(ev,function(event) {
   alert('I was clicked!');
 });
 }
 
-let input1 = document.querySelector('input#input');
-addingEventListener(input1,'click');
+
+addingEventListener('click');
